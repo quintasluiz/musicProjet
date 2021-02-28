@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+
+	</style>
+	
+	<title></title>
+</head>
+<body>
+	<header id="header">
+		<center>
+		<img id="header-img"src="https://wdcnet.com.br/wp-content/uploads/2020/10/shure-05.png">
+
+		<nav id="nav-bar">
+			<a class="nav-link" href="#Learn-more">Learn More</a>
+			<a class="nav-link" href="#request-coupon">Request Coupon</a>
+			<a class="nav-link" href="#buy-on-amazon">Buy on Amazon</a>
+		</nav>	
+		</center>	
+	</header>
+	
+	<section id="Learn-more">
+		<center>
+		<h1>Every Day a New Song For You</h1>
+		<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/qCEzdpQH-QM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</center>
+	</section>
+	<section id="request-coupon"></section>
+	<center>
+		<h2>Request a Song</h2>
+	<form id="form" action="https://www.freecodecamp.com/email-submit">
+		<input id="email" type="email" name="email"placeholder="you@whatever.com">
+		<input id="submit" type="submit" name="submit">
+	</form>
+</center>
+	<section id="buy-on-amazon"></section>
+	<div class="flex-container">
+		<div>Spotify</div><br>
+		<div>Deezer</div>
+		<div>Amazon music</div>
+	</div>
+
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
+</html>
